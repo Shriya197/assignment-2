@@ -3,13 +3,13 @@
 //A program to print 5 times "*" horizontally in a single row
 
 for (i = 0; i <= 0; i++){
-    var value = "";
+    let v = "";
 
     for (j = 0; j <= 4; j++){
-        value=value+" *";
+        v=v+" *";
     }
 
-console.log(value);
+console.log(v);
 }
 
 //Output: * * * * *
